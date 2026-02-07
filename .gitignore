@@ -172,3 +172,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# ignore .env files, which may contain sensitive information such as API keys or database credentials
+.env
+
+# ignore the virtual environment in "/home/mahmoudssd/ITI_Materials/MLflow_Labs/Lab01/MLOps-Course-Labs/churn_prediction"
+MLOps-Course-Labs/churn_prediction/bin
+MLOps-Course-Labs/churn_prediction/include
+MLOps-Course-Labs/churn_prediction/lib
+MLOps-Course-Labs/churn_prediction/lib64
